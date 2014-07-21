@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFFD6358197CBDBE0021FEC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFD6357197CBDBE0021FEC1 /* Foundation.framework */; };
+		AFFD635A197CBDBE0021FEC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFD6359197CBDBE0021FEC1 /* CoreGraphics.framework */; };
+		AFFD635C197CBDBE0021FEC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFD635B197CBDBE0021FEC1 /* UIKit.framework */; };
+		AFFD6362197CBDBE0021FEC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFFD6360197CBDBE0021FEC1 /* InfoPlist.strings */; };
+		AFFD6364197CBDBE0021FEC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD6363197CBDBE0021FEC1 /* main.m */; };
+		AFFD6368197CBDBE0021FEC1 /* YETIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD6367197CBDBE0021FEC1 /* YETIAppDelegate.m */; };
+		AFFD636B197CBDBE0021FEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFD6369197CBDBE0021FEC1 /* Main.storyboard */; };
+		AFFD636E197CBDBE0021FEC1 /* YETIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD636D197CBDBE0021FEC1 /* YETIViewController.m */; };
+		AFFD6370197CBDBE0021FEC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFD636F197CBDBE0021FEC1 /* Images.xcassets */; };
+		AFFD6377197CBDBE0021FEC1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFD6376197CBDBE0021FEC1 /* XCTest.framework */; };
+		AFFD6378197CBDBE0021FEC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFD6357197CBDBE0021FEC1 /* Foundation.framework */; };
+		AFFD6379197CBDBE0021FEC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFD635B197CBDBE0021FEC1 /* UIKit.framework */; };
+		AFFD6381197CBDBE0021FEC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFFD637F197CBDBE0021FEC1 /* InfoPlist.strings */; };
+		AFFD6383197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD6382197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFFD637A197CBDBE0021FEC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFFD634C197CBDBE0021FEC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFFD6353197CBDBE0021FEC1;
+			remoteInfo = YetiCharacterLabelExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFFD6354197CBDBE0021FEC1 /* YetiCharacterLabelExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YetiCharacterLabelExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFD6357197CBDBE0021FEC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFFD6359197CBDBE0021FEC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFFD635B197CBDBE0021FEC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFFD635F197CBDBE0021FEC1 /* YetiCharacterLabelExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YetiCharacterLabelExample-Info.plist"; sourceTree = "<group>"; };
+		AFFD6361197CBDBE0021FEC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFFD6363197CBDBE0021FEC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFFD6365197CBDBE0021FEC1 /* YetiCharacterLabelExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YetiCharacterLabelExample-Prefix.pch"; sourceTree = "<group>"; };
+		AFFD6366197CBDBE0021FEC1 /* YETIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YETIAppDelegate.h; sourceTree = "<group>"; };
+		AFFD6367197CBDBE0021FEC1 /* YETIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YETIAppDelegate.m; sourceTree = "<group>"; };
+		AFFD636A197CBDBE0021FEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFFD636C197CBDBE0021FEC1 /* YETIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YETIViewController.h; sourceTree = "<group>"; };
+		AFFD636D197CBDBE0021FEC1 /* YETIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YETIViewController.m; sourceTree = "<group>"; };
+		AFFD636F197CBDBE0021FEC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFFD6375197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YetiCharacterLabelExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFD6376197CBDBE0021FEC1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AFFD637E197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YetiCharacterLabelExampleTests-Info.plist"; sourceTree = "<group>"; };
+		AFFD6380197CBDBE0021FEC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFFD6382197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YetiCharacterLabelExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFFD6351197CBDBE0021FEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFD635A197CBDBE0021FEC1 /* CoreGraphics.framework in Frameworks */,
+				AFFD635C197CBDBE0021FEC1 /* UIKit.framework in Frameworks */,
+				AFFD6358197CBDBE0021FEC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFD6372197CBDBE0021FEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFD6377197CBDBE0021FEC1 /* XCTest.framework in Frameworks */,
+				AFFD6379197CBDBE0021FEC1 /* UIKit.framework in Frameworks */,
+				AFFD6378197CBDBE0021FEC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFFD634B197CBDBE0021FEC1 = {
+			isa = PBXGroup;
+			children = (
+				AFFD635D197CBDBE0021FEC1 /* YetiCharacterLabelExample */,
+				AFFD637C197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests */,
+				AFFD6356197CBDBE0021FEC1 /* Frameworks */,
+				AFFD6355197CBDBE0021FEC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFFD6355197CBDBE0021FEC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFFD6354197CBDBE0021FEC1 /* YetiCharacterLabelExample.app */,
+				AFFD6375197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFFD6356197CBDBE0021FEC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFFD6357197CBDBE0021FEC1 /* Foundation.framework */,
+				AFFD6359197CBDBE0021FEC1 /* CoreGraphics.framework */,
+				AFFD635B197CBDBE0021FEC1 /* UIKit.framework */,
+				AFFD6376197CBDBE0021FEC1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFFD635D197CBDBE0021FEC1 /* YetiCharacterLabelExample */ = {
+			isa = PBXGroup;
+			children = (
+				AFFD6366197CBDBE0021FEC1 /* YETIAppDelegate.h */,
+				AFFD6367197CBDBE0021FEC1 /* YETIAppDelegate.m */,
+				AFFD6369197CBDBE0021FEC1 /* Main.storyboard */,
+				AFFD636C197CBDBE0021FEC1 /* YETIViewController.h */,
+				AFFD636D197CBDBE0021FEC1 /* YETIViewController.m */,
+				AFFD636F197CBDBE0021FEC1 /* Images.xcassets */,
+				AFFD635E197CBDBE0021FEC1 /* Supporting Files */,
+			);
+			path = YetiCharacterLabelExample;
+			sourceTree = "<group>";
+		};
+		AFFD635E197CBDBE0021FEC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFFD635F197CBDBE0021FEC1 /* YetiCharacterLabelExample-Info.plist */,
+				AFFD6360197CBDBE0021FEC1 /* InfoPlist.strings */,
+				AFFD6363197CBDBE0021FEC1 /* main.m */,
+				AFFD6365197CBDBE0021FEC1 /* YetiCharacterLabelExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFFD637C197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFFD6382197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests.m */,
+				AFFD637D197CBDBE0021FEC1 /* Supporting Files */,
+			);
+			path = YetiCharacterLabelExampleTests;
+			sourceTree = "<group>";
+		};
+		AFFD637D197CBDBE0021FEC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFFD637E197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests-Info.plist */,
+				AFFD637F197CBDBE0021FEC1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFFD6353197CBDBE0021FEC1 /* YetiCharacterLabelExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFD6386197CBDBE0021FEC1 /* Build configuration list for PBXNativeTarget "YetiCharacterLabelExample" */;
+			buildPhases = (
+				AFFD6350197CBDBE0021FEC1 /* Sources */,
+				AFFD6351197CBDBE0021FEC1 /* Frameworks */,
+				AFFD6352197CBDBE0021FEC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YetiCharacterLabelExample;
+			productName = YetiCharacterLabelExample;
+			productReference = AFFD6354197CBDBE0021FEC1 /* YetiCharacterLabelExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFFD6374197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFD6389197CBDBE0021FEC1 /* Build configuration list for PBXNativeTarget "YetiCharacterLabelExampleTests" */;
+			buildPhases = (
+				AFFD6371197CBDBE0021FEC1 /* Sources */,
+				AFFD6372197CBDBE0021FEC1 /* Frameworks */,
+				AFFD6373197CBDBE0021FEC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFFD637B197CBDBE0021FEC1 /* PBXTargetDependency */,
+			);
+			name = YetiCharacterLabelExampleTests;
+			productName = YetiCharacterLabelExampleTests;
+			productReference = AFFD6375197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFFD634C197CBDBE0021FEC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YETI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Swift Yeti";
+				TargetAttributes = {
+					AFFD6374197CBDBE0021FEC1 = {
+						TestTargetID = AFFD6353197CBDBE0021FEC1;
+					};
+				};
+			};
+			buildConfigurationList = AFFD634F197CBDBE0021FEC1 /* Build configuration list for PBXProject "YetiCharacterLabelExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFFD634B197CBDBE0021FEC1;
+			productRefGroup = AFFD6355197CBDBE0021FEC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFFD6353197CBDBE0021FEC1 /* YetiCharacterLabelExample */,
+				AFFD6374197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFFD6352197CBDBE0021FEC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFD6370197CBDBE0021FEC1 /* Images.xcassets in Resources */,
+				AFFD6362197CBDBE0021FEC1 /* InfoPlist.strings in Resources */,
+				AFFD636B197CBDBE0021FEC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFD6373197CBDBE0021FEC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFD6381197CBDBE0021FEC1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFFD6350197CBDBE0021FEC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFD6364197CBDBE0021FEC1 /* main.m in Sources */,
+				AFFD636E197CBDBE0021FEC1 /* YETIViewController.m in Sources */,
+				AFFD6368197CBDBE0021FEC1 /* YETIAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFD6371197CBDBE0021FEC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFD6383197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFFD637B197CBDBE0021FEC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFFD6353197CBDBE0021FEC1 /* YetiCharacterLabelExample */;
+			targetProxy = AFFD637A197CBDBE0021FEC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFFD6360197CBDBE0021FEC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFFD6361197CBDBE0021FEC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFFD6369197CBDBE0021FEC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFFD636A197CBDBE0021FEC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFFD637F197CBDBE0021FEC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFFD6380197CBDBE0021FEC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFFD6384197CBDBE0021FEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFFD6385197CBDBE0021FEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFFD6387197CBDBE0021FEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YetiCharacterLabelExample/YetiCharacterLabelExample-Prefix.pch";
+				INFOPLIST_FILE = "YetiCharacterLabelExample/YetiCharacterLabelExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFFD6388197CBDBE0021FEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YetiCharacterLabelExample/YetiCharacterLabelExample-Prefix.pch";
+				INFOPLIST_FILE = "YetiCharacterLabelExample/YetiCharacterLabelExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AFFD638A197CBDBE0021FEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YetiCharacterLabelExample.app/YetiCharacterLabelExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YetiCharacterLabelExample/YetiCharacterLabelExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YetiCharacterLabelExampleTests/YetiCharacterLabelExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AFFD638B197CBDBE0021FEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YetiCharacterLabelExample.app/YetiCharacterLabelExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YetiCharacterLabelExample/YetiCharacterLabelExample-Prefix.pch";
+				INFOPLIST_FILE = "YetiCharacterLabelExampleTests/YetiCharacterLabelExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFFD634F197CBDBE0021FEC1 /* Build configuration list for PBXProject "YetiCharacterLabelExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFD6384197CBDBE0021FEC1 /* Debug */,
+				AFFD6385197CBDBE0021FEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFD6386197CBDBE0021FEC1 /* Build configuration list for PBXNativeTarget "YetiCharacterLabelExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFD6387197CBDBE0021FEC1 /* Debug */,
+				AFFD6388197CBDBE0021FEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AFFD6389197CBDBE0021FEC1 /* Build configuration list for PBXNativeTarget "YetiCharacterLabelExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFD638A197CBDBE0021FEC1 /* Debug */,
+				AFFD638B197CBDBE0021FEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFFD634C197CBDBE0021FEC1 /* Project object */;
+}
