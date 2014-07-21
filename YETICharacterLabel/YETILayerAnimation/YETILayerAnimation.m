@@ -8,7 +8,6 @@
 
 #import "YETILayerAnimation.h"
 #import <QuartzCore/QuartzCore.h>
-#import <UIKit/UIGeometry.h>
 
 @interface YETILayerAnimation ()
 
