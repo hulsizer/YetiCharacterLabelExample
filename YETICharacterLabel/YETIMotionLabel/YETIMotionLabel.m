@@ -123,7 +123,7 @@
             
             NSInteger glyphIndex = [self.layoutManager glyphIndexForCharacterAtIndex:newMatchingIndex];
             CATextLayer *matchingLayer = self.characterTextLayers[glyphIndex];
-            CATransform3D startingTransform = CATransform3DMakeTranslation(matchingLayer.position.x-textLayer.position.x, textLayer.position.y-matchingLayer.position.y, 0);
+            CATransform3D startingTransform = CATransform3DMakeTranslation(matchingLayer.position.x-textLayer.position.x, matchingLayer.position.y-textLayer.position.y, 0);
             
             [YETILayerAnimation animationForLayer:textLayer duration:0.3 delay:0 animations:^{
                 textLayer.transform = startingTransform;
