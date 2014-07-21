@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E1701E0F51D4FFBBB8756A8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA0039FC4614DE780D9324A /* libPods.a */; };
 		AFFD6358197CBDBE0021FEC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFD6357197CBDBE0021FEC1 /* Foundation.framework */; };
 		AFFD635A197CBDBE0021FEC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFD6359197CBDBE0021FEC1 /* CoreGraphics.framework */; };
 		AFFD635C197CBDBE0021FEC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFD635B197CBDBE0021FEC1 /* UIKit.framework */; };
@@ -21,6 +22,13 @@
 		AFFD6379197CBDBE0021FEC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFFD635B197CBDBE0021FEC1 /* UIKit.framework */; };
 		AFFD6381197CBDBE0021FEC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFFD637F197CBDBE0021FEC1 /* InfoPlist.strings */; };
 		AFFD6383197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD6382197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests.m */; };
+		AFFD639C197CBDFF0021FEC1 /* YETICharacterLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD638F197CBDFF0021FEC1 /* YETICharacterLabel.m */; };
+		AFFD639D197CBDFF0021FEC1 /* YETIFadeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD6392197CBDFF0021FEC1 /* YETIFadeLabel.m */; };
+		AFFD639E197CBDFF0021FEC1 /* YETIFallingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD6395197CBDFF0021FEC1 /* YETIFallingLabel.m */; };
+		AFFD639F197CBDFF0021FEC1 /* YETILayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD6398197CBDFF0021FEC1 /* YETILayerAnimation.m */; };
+		AFFD63A0197CBDFF0021FEC1 /* YETIMotionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD639B197CBDFF0021FEC1 /* YETIMotionLabel.m */; };
+		AFFD63A6197CBF3E0021FEC1 /* FlickrCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD63A3197CBF3E0021FEC1 /* FlickrCollectionViewCell.m */; };
+		AFFD63A7197CBF3E0021FEC1 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFD63A5197CBF3E0021FEC1 /* FlickrPhoto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4FA0039FC4614DE780D9324A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFD6354197CBDBE0021FEC1 /* YetiCharacterLabelExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YetiCharacterLabelExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFD6357197CBDBE0021FEC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AFFD6359197CBDBE0021FEC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +62,21 @@
 		AFFD637E197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YetiCharacterLabelExampleTests-Info.plist"; sourceTree = "<group>"; };
 		AFFD6380197CBDBE0021FEC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AFFD6382197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YetiCharacterLabelExampleTests.m; sourceTree = "<group>"; };
+		AFFD638E197CBDFF0021FEC1 /* YETICharacterLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YETICharacterLabel.h; sourceTree = "<group>"; };
+		AFFD638F197CBDFF0021FEC1 /* YETICharacterLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YETICharacterLabel.m; sourceTree = "<group>"; };
+		AFFD6391197CBDFF0021FEC1 /* YETIFadeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YETIFadeLabel.h; sourceTree = "<group>"; };
+		AFFD6392197CBDFF0021FEC1 /* YETIFadeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YETIFadeLabel.m; sourceTree = "<group>"; };
+		AFFD6394197CBDFF0021FEC1 /* YETIFallingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YETIFallingLabel.h; sourceTree = "<group>"; };
+		AFFD6395197CBDFF0021FEC1 /* YETIFallingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YETIFallingLabel.m; sourceTree = "<group>"; };
+		AFFD6397197CBDFF0021FEC1 /* YETILayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YETILayerAnimation.h; sourceTree = "<group>"; };
+		AFFD6398197CBDFF0021FEC1 /* YETILayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YETILayerAnimation.m; sourceTree = "<group>"; };
+		AFFD639A197CBDFF0021FEC1 /* YETIMotionLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YETIMotionLabel.h; sourceTree = "<group>"; };
+		AFFD639B197CBDFF0021FEC1 /* YETIMotionLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YETIMotionLabel.m; sourceTree = "<group>"; };
+		AFFD63A2197CBF3E0021FEC1 /* FlickrCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrCollectionViewCell.h; sourceTree = "<group>"; };
+		AFFD63A3197CBF3E0021FEC1 /* FlickrCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrCollectionViewCell.m; sourceTree = "<group>"; };
+		AFFD63A4197CBF3E0021FEC1 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
+		AFFD63A5197CBF3E0021FEC1 /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
+		D28C3FAF11C74F678575DFD7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +87,7 @@
 				AFFD635A197CBDBE0021FEC1 /* CoreGraphics.framework in Frameworks */,
 				AFFD635C197CBDBE0021FEC1 /* UIKit.framework in Frameworks */,
 				AFFD6358197CBDBE0021FEC1 /* Foundation.framework in Frameworks */,
+				2E1701E0F51D4FFBBB8756A8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +111,7 @@
 				AFFD637C197CBDBE0021FEC1 /* YetiCharacterLabelExampleTests */,
 				AFFD6356197CBDBE0021FEC1 /* Frameworks */,
 				AFFD6355197CBDBE0021FEC1 /* Products */,
+				D28C3FAF11C74F678575DFD7 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +131,7 @@
 				AFFD6359197CBDBE0021FEC1 /* CoreGraphics.framework */,
 				AFFD635B197CBDBE0021FEC1 /* UIKit.framework */,
 				AFFD6376197CBDBE0021FEC1 /* XCTest.framework */,
+				4FA0039FC4614DE780D9324A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +139,8 @@
 		AFFD635D197CBDBE0021FEC1 /* YetiCharacterLabelExample */ = {
 			isa = PBXGroup;
 			children = (
+				AFFD63A1197CBF3E0021FEC1 /* FlickrClasses */,
+				AFFD638C197CBDFF0021FEC1 /* YETICharacterLabel */,
 				AFFD6366197CBDBE0021FEC1 /* YETIAppDelegate.h */,
 				AFFD6367197CBDBE0021FEC1 /* YETIAppDelegate.m */,
 				AFFD6369197CBDBE0021FEC1 /* Main.storyboard */,
@@ -152,6 +181,74 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AFFD638C197CBDFF0021FEC1 /* YETICharacterLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AFFD638D197CBDFF0021FEC1 /* YETICharacterLabel */,
+				AFFD6390197CBDFF0021FEC1 /* YETIFadeLabel */,
+				AFFD6393197CBDFF0021FEC1 /* YETIFallingLabel */,
+				AFFD6396197CBDFF0021FEC1 /* YETILayerAnimation */,
+				AFFD6399197CBDFF0021FEC1 /* YETIMotionLabel */,
+			);
+			path = YETICharacterLabel;
+			sourceTree = SOURCE_ROOT;
+		};
+		AFFD638D197CBDFF0021FEC1 /* YETICharacterLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AFFD638E197CBDFF0021FEC1 /* YETICharacterLabel.h */,
+				AFFD638F197CBDFF0021FEC1 /* YETICharacterLabel.m */,
+			);
+			path = YETICharacterLabel;
+			sourceTree = "<group>";
+		};
+		AFFD6390197CBDFF0021FEC1 /* YETIFadeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AFFD6391197CBDFF0021FEC1 /* YETIFadeLabel.h */,
+				AFFD6392197CBDFF0021FEC1 /* YETIFadeLabel.m */,
+			);
+			path = YETIFadeLabel;
+			sourceTree = "<group>";
+		};
+		AFFD6393197CBDFF0021FEC1 /* YETIFallingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AFFD6394197CBDFF0021FEC1 /* YETIFallingLabel.h */,
+				AFFD6395197CBDFF0021FEC1 /* YETIFallingLabel.m */,
+			);
+			path = YETIFallingLabel;
+			sourceTree = "<group>";
+		};
+		AFFD6396197CBDFF0021FEC1 /* YETILayerAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AFFD6397197CBDFF0021FEC1 /* YETILayerAnimation.h */,
+				AFFD6398197CBDFF0021FEC1 /* YETILayerAnimation.m */,
+			);
+			path = YETILayerAnimation;
+			sourceTree = "<group>";
+		};
+		AFFD6399197CBDFF0021FEC1 /* YETIMotionLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AFFD639A197CBDFF0021FEC1 /* YETIMotionLabel.h */,
+				AFFD639B197CBDFF0021FEC1 /* YETIMotionLabel.m */,
+			);
+			path = YETIMotionLabel;
+			sourceTree = "<group>";
+		};
+		AFFD63A1197CBF3E0021FEC1 /* FlickrClasses */ = {
+			isa = PBXGroup;
+			children = (
+				AFFD63A2197CBF3E0021FEC1 /* FlickrCollectionViewCell.h */,
+				AFFD63A3197CBF3E0021FEC1 /* FlickrCollectionViewCell.m */,
+				AFFD63A4197CBF3E0021FEC1 /* FlickrPhoto.h */,
+				AFFD63A5197CBF3E0021FEC1 /* FlickrPhoto.m */,
+			);
+			path = FlickrClasses;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFFD6386197CBDBE0021FEC1 /* Build configuration list for PBXNativeTarget "YetiCharacterLabelExample" */;
 			buildPhases = (
+				A2991BF9595E4314B1C94638 /* Check Pods Manifest.lock */,
 				AFFD6350197CBDBE0021FEC1 /* Sources */,
 				AFFD6351197CBDBE0021FEC1 /* Frameworks */,
 				AFFD6352197CBDBE0021FEC1 /* Resources */,
+				41C6FCD3BE824B2EBAD62DDC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +344,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41C6FCD3BE824B2EBAD62DDC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2991BF9595E4314B1C94638 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AFFD6350197CBDBE0021FEC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -252,7 +384,14 @@
 			files = (
 				AFFD6364197CBDBE0021FEC1 /* main.m in Sources */,
 				AFFD636E197CBDBE0021FEC1 /* YETIViewController.m in Sources */,
+				AFFD639D197CBDFF0021FEC1 /* YETIFadeLabel.m in Sources */,
+				AFFD63A7197CBF3E0021FEC1 /* FlickrPhoto.m in Sources */,
+				AFFD63A6197CBF3E0021FEC1 /* FlickrCollectionViewCell.m in Sources */,
+				AFFD639E197CBDFF0021FEC1 /* YETIFallingLabel.m in Sources */,
 				AFFD6368197CBDBE0021FEC1 /* YETIAppDelegate.m in Sources */,
+				AFFD63A0197CBDFF0021FEC1 /* YETIMotionLabel.m in Sources */,
+				AFFD639C197CBDFF0021FEC1 /* YETICharacterLabel.m in Sources */,
+				AFFD639F197CBDFF0021FEC1 /* YETILayerAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +513,7 @@
 		};
 		AFFD6387197CBDBE0021FEC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28C3FAF11C74F678575DFD7 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -387,6 +527,7 @@
 		};
 		AFFD6388197CBDBE0021FEC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28C3FAF11C74F678575DFD7 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -457,6 +598,7 @@
 				AFFD6388197CBDBE0021FEC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFFD6389197CBDBE0021FEC1 /* Build configuration list for PBXNativeTarget "YetiCharacterLabelExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +607,7 @@
 				AFFD638B197CBDBE0021FEC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
