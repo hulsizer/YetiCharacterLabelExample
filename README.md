@@ -29,4 +29,4 @@ MotionLabel:
 
 
 Swift Version:
-https://github.com/android1989/CharacterLabel
+https://github.com/android1989/CharacterText
