@@ -28,5 +28,10 @@ MotionLabel:
 [![MotionLabel](http://i.imgur.com/jGR7PsR.gif)](https://swiftyeti.com/texteffects-with-nslayoutmanager)
 
 
+CocoaPods:
+
+You can add this to your project by using CocoaPods: `YETICharacterLabel`
+
+
 Swift Version:
 https://github.com/android1989/CharacterText
