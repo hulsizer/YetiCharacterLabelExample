@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'YETICharacterLabel'
-  spec.version = '1.0.0'
+  spec.version = '1.0.1'
   spec.authors = {'Andrew Hulsizer' => 'andrew.hulsizer@gmail.com'}
   spec.homepage = 'https://github.com/android1989/YetiCharacterLabelExample'
   spec.summary = 'UILabel subclass that renders each glyph on its own CATextLayer, allowing for advanced text effects.'
