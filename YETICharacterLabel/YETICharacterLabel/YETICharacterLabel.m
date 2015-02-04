@@ -98,7 +98,9 @@
     }
     
     [self cleanOutOldCharacterTextLayers];
-    [self.textStorage setAttributedString:attributedText];
+    if (attributedText) {
+        [self.textStorage setAttributedString:attributedText];
+    }
 }
 
 - (void)setSuperToBlank {
