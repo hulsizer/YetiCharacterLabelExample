@@ -27,7 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [[FlickrKit sharedFlickrKit] initializeWithAPIKey:@"334626934a41897193b6a0613f1c94a0" sharedSecret:@"b0132e5cfd44574b"];
+    [[FlickrKit sharedFlickrKit] initializeWithAPIKey:@"insert_flickr_api_key_here" sharedSecret:@"insert_flickr_shared_secret_here"];
     
     // Do any additional setup after loading the view, typically from a nib.
     
